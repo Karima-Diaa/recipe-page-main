@@ -83,7 +83,8 @@ ul {
     list-style: square;
 }
 
-.part-1 ul {
+.part-1 ul,
+.rrr {
     color: hsl(332, 51%, 32%);
 
 
