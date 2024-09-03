@@ -1,0 +1,168 @@
+.young-serif-regular,
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.outfit,
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+
+
+p {
+    font-size: 16px;
+
+}
+
+.content {
+    background-color: hsl(30, 54%, 90%);
+    padding: 50px 10px;
+    color: hsl(30, 10%, 34%);
+
+
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 30px;
+    width: 626px;
+
+
+
+}
+
+img {
+    width: 620px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+ul {
+    list-style: square;
+}
+
+.part-1 ul {
+    color: hsl(332, 51%, 32%);
+
+
+}
+
+li div {
+    color: hsl(30, 10%, 34%);
+    margin-left: 10px;
+
+}
+
+li {
+    margin-left: 12px;
+    padding-bottom: 10px;
+
+}
+
+
+
+.part-1 {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    margin: 10px;
+}
+
+.part-2 {
+    color: hsl(14, 45%, 36%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+h2,
+.light {
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+.bor-bottom {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+
+
+}
+
+.part-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px;
+
+
+}
+
+@media screen and (max-width:500px) {
+    .content {
+        background-color: white;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+
+    .media-1 {
+        padding: 10px;
+    }
+
+    .part-2 {
+        padding: 0px 15px;
+    }
+}
